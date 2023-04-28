@@ -10,7 +10,10 @@ const Navbar = () => {
     <>
       <div className="container">
         <div class="left">
-        <KeyboardArrowDownIcon />
+          <div className="img">
+            <KeyboardArrowDownIcon />
+          </div>
+        
         </div>
         <div class="center">
          <h1> ZESAY </h1>
