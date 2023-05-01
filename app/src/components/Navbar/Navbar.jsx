@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <>
       <div className="container">
-        <div class="left">
+        <div className="left">
           <div className="img">
             <img src="https://w7.pngwing.com/pngs/60/776/png-transparent-flag-of-the-united-states-comparison-of-american-and-british-english-flag-of-the-united-kingdom-united-states.png" alt="" />
             <KeyboardArrowDownIcon />
@@ -19,18 +19,20 @@ const Navbar = () => {
             <div className="img">
             <span>USD</span>
             <KeyboardArrowDownIcon />
+
+            
           </div>
 
-          <div></div>
+ 
           </div>
 
           
         
         </div>
-        <div class="center">
+        <div className="center">
          <h1> ZESAY </h1>
         </div>
-        <div class="right">
+        <div className="right">
           <SearchIcon />
           <PersonOutlineOutlinedIcon />
           <FavoriteBorderOutlinedIcon />
