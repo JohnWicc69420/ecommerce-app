@@ -1,8 +1,17 @@
 .container{
+    max-width: none;
+    width: 100vw;
+    padding: 10px 20px;
     display: flex;
     justify-content: space-between;
+    overflow-x: hidden;
+    font-size: 1rem;
+    align-items: center;
+    background-color: aqua;
+
     .left{
         display: flex;
+        gap: 7px;
         .img{
             display: flex;
             img{
@@ -13,10 +22,14 @@
     }
 
     .center{
-
+        font-size: 1.3rem;
+        font-weight: 500;
+        display: flex;
+        gap: 7px;
     }
 
     .right{
-        
+        display: flex;
+        gap: 7px;        
     }
 }
