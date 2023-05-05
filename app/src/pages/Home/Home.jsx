@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./Home.scss";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
@@ -40,10 +40,6 @@ const Home = () => {
             <img src={data[2]} alt="" />
           </SwiperSlide>
         </Swiper>
-
-        <ArrowBackIosIcon style={{ fontSize: "2.5rem" }} />
-
-        <ArrowForwardIosIcon style={{ fontSize: "2.5rem" }} />
       </div>
     </>
   );
