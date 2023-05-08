@@ -1,0 +1,25 @@
+.fpContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 35px;
+    
+    .top{
+        display: grid;
+        grid-template-columns: 1fr 1.7fr;
+        align-items: center;
+        gap: 20px;
+        padding-bottom: 50px;
+        
+
+        h1{
+            font-size: 1.75rem;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        p{
+            font-size: .9rem;
+            color: gray;
+        }
+    }
+}

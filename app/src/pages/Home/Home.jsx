@@ -1,9 +1,8 @@
-import React, { useRef } from "react";
+import React from "react";
 import "./Home.scss";
-import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
-import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper";
+import FeaturedProducts from "../../components/FeaturedProducts/FeaturedProducts";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -40,6 +39,10 @@ const Home = () => {
             <img src={data[2]} alt="" />
           </SwiperSlide>
         </Swiper>
+      </div>
+
+      <div className="featuredProducts">
+        <FeaturedProducts />
       </div>
     </>
   );
