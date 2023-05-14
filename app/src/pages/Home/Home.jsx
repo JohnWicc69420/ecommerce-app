@@ -3,6 +3,7 @@ import "./Home.scss";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper";
 import FeaturedProducts from "../../components/FeaturedProducts/FeaturedProducts";
+import TrendingProducts from "../../components/TrendingProducts/TrendingProducts";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -43,6 +44,10 @@ const Home = () => {
 
       <div className="featuredProducts">
         <FeaturedProducts />
+      </div>
+
+      <div className="trendingProducts">
+        <TrendingProducts />
       </div>
     </>
   );

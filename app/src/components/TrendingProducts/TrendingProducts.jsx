@@ -42,7 +42,7 @@ const TrendingProducts = () => {
     <>
       <div className="tpContainer">
         <div className="top">
-          <h1>Featured Products</h1>
+          <h1>Trending Products</h1>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias
             dolor laudantium alias perspiciatis rem quo harum, praesentium
