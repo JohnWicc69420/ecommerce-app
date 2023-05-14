@@ -1,8 +1,8 @@
 import React from "react";
 import Card from "../Card/Card";
-import "./FeaturedProducts.scss";
+import "./TrendingProducts.scss";
 
-const FeaturedProducts = () => {
+const TrendingProducts = () => {
   const data = [
     {
       id: "1",
@@ -40,7 +40,7 @@ const FeaturedProducts = () => {
 
   return (
     <>
-      <div className="fpContainer">
+      <div className="tpContainer">
         <div className="top">
           <h1>Featured Products</h1>
           <p>
@@ -62,4 +62,4 @@ const FeaturedProducts = () => {
   );
 };
 
-export default FeaturedProducts;
+export default TrendingProducts;

@@ -1,14 +1,10 @@
-import { createBrowserRouter, RouterProvider, Outlet, Route } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer'
 import Home from './pages/Home/Home'
 import Product from './pages/Product/Product'
 import Products from './pages/Products/Products'
-import { register } from 'swiper/element/bundle';
-// register Swiper custom elements
-register();
-
 
 const Layout = () => {
 return(

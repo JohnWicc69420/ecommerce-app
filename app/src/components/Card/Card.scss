@@ -1,0 +1,33 @@
+.cardContainer {
+    h1{
+        padding-top: 6px;
+    }
+    .images {
+      position: relative;
+      height: 500px;
+
+      img{
+        width: 270px;
+        height: 400px;
+        object-fit: cover;
+        transition: all 0.2s ease-in-out;
+      }
+      .img2 {
+        display: none;
+      }
+      &:hover .img1 {
+        display: none;
+      }
+      &:hover .img2 {
+        display: block;
+      }
+    }
+    .prices{
+        display: flex;
+        gap: 10px;
+        .oldPrice{
+            color: gray;
+            text-decoration: line-through;
+        }
+    }
+  }
