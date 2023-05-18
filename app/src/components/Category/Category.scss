@@ -1,0 +1,43 @@
+.catContainer{
+    display: flex;
+    height: 500px;
+    background: blueviolet;
+    gap: 10px;
+    margin: 10px;
+
+    .col{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .col-l{
+        flex: 2;
+    }
+
+    .row{
+        flex: 1;
+        display: flex;
+        gap: 10px;
+        position: relative;
+
+        button{
+            font-size: .88rem;
+            text-transform: uppercase;
+            text-align: center;
+            padding: 5px 8px;
+            background-color: white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
