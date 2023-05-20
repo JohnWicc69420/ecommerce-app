@@ -5,6 +5,7 @@ import { Pagination, Navigation } from "swiper";
 import FeaturedProducts from "../../components/FeaturedProducts/FeaturedProducts";
 import TrendingProducts from "../../components/TrendingProducts/TrendingProducts";
 import Category from "../../components/Category/Category";
+import Banner from "../../components/Banner/Banner";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -53,6 +54,10 @@ const Home = () => {
 
       <div className="trendingProducts">
         <TrendingProducts />
+      </div>
+
+      <div className="banner">
+        <Banner />
       </div>
     </>
   );

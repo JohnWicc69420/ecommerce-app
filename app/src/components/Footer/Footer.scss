@@ -2,7 +2,7 @@
     display: grid;
     justify-content: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 20px 250px;
+    padding: 20px 250px 100px;
     gap: 50px;
     h1{
         font-size: 1.2rem;
@@ -14,5 +14,7 @@
         text-align: justify;
         color: gray;
         padding-bottom: 3px;
+        font-size: .88rem;
+        font-weight: 400;
     }
 }

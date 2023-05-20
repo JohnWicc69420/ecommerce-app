@@ -1,0 +1,28 @@
+.bannerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #3171F9;
+
+    @media (max-width: 576px) {
+        padding: 15px 15px;
+        flex-direction: column;
+    }
+
+    @media (min-width: 768px) {
+        padding: 15px 40px;
+    }
+
+
+    @media (min-width: 992px) {
+        padding: 15px 270px;
+    }
+
+    .left{
+        text-transform: uppercase;
+        color: white;
+        font-size: .8rem;
+        font-weight: 400;
+        letter-spacing: 0.02rem;
+    }
+}

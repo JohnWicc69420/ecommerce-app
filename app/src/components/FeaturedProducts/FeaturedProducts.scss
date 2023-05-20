@@ -4,12 +4,12 @@
     align-items: center;
     
     .top{
-        padding: 100px 35px 50px;
+        padding: 100px 35px;
         display: grid;
         grid-template-columns: 1fr 1.7fr;
         align-items: center;
         gap: 20px;
-        width: 80vw;
+        width: 85vw;
         
         h1{
             font-size: 1.75rem;
@@ -27,7 +27,7 @@
     .bottom{
         display: flex;
         justify-content: center;
-        width: 70vw;
+        width: 95vw;
         height: 600px;
         padding: 25px 50px;
         gap: 30px;

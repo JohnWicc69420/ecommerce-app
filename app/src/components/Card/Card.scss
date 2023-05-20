@@ -11,6 +11,7 @@
         height: 400px;
         object-fit: cover;
       }
+
       .img2 {
         display: none;
       }
@@ -24,6 +25,7 @@
     .prices{
         display: flex;
         gap: 10px;
+        
         .oldPrice{
             color: gray;
             text-decoration: line-through;
