@@ -1,0 +1,62 @@
+.productContainer{
+    display: flex;
+    margin: 50px;
+    .left{
+        background-color: aqua;
+        height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    h1{
+        margin-bottom: 13px;
+        font-weight: 500;
+        font-size: 1.25rem;
+    }
+        .inputs{
+            .input{
+                margin-top: 2px;
+                input{
+                margin-right: 7px;
+                }
+            }
+        }
+
+        .filter{
+            margin-top: 20px;
+            span{
+                font-size: .85rem;
+                font-weight: 500;
+            }
+            .input{
+                display: flex;
+                align-items: center;
+            }
+        }
+
+        .radio{
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            .input{
+                display: flex;
+                align-items: center;
+                input{
+                    margin-right: 7px;
+                }
+            }
+        }
+    }
+
+    .right{
+        display: flex;
+        flex: 3;
+
+        .catImg{
+
+        }
+        .cards{
+
+        }
+    }
+
+}

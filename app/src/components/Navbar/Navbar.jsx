@@ -26,23 +26,23 @@ const Navbar = () => {
           </div>
 
           <div className="product">
-            <Link to="/products/1">Men</Link>
+            <Link to="/products/men">Men</Link>
           </div>
 
           <div className="product">
-            <Link to="/products/1">Women</Link>
+            <Link to="/products/women">Women</Link>
           </div>
 
           <div className="product">
-            <Link to="/products/1">Children</Link>
+            <Link to="/products/children">Children</Link>
           </div>
 
           <div className="product">
-            <Link to="/products/1">Accessories</Link>
+            <Link to="/products/accessories">Accessories</Link>
           </div>
         </div>
         <div className="center">
-          <h1> ZESAY </h1>
+          <h1> LAMASTORE </h1>
         </div>
         <div className="right">
           <div>
@@ -50,15 +50,15 @@ const Navbar = () => {
           </div>
 
           <div>
-            <Link to="/">About</Link>
+            <Link to="/about">About</Link>
           </div>
 
           <div>
-            <Link to="/">Contact</Link>
+            <Link to="/contact">Contact</Link>
           </div>
 
           <div>
-            <Link to="/">Stores</Link>
+            <Link to="/stores">Stores</Link>
           </div>
           <SearchIcon />
           <PersonOutlineOutlinedIcon />

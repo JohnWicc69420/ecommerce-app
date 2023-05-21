@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: space-between;
     background: #3171F9;
+    margin: 100px 0px;
 
     @media (max-width: 576px) {
         padding: 15px 15px;
@@ -25,4 +26,33 @@
         font-weight: 400;
         letter-spacing: 0.02rem;
     }
+
+    .center{
+        .input{
+            display: flex;
+            gap: 0px;
+            input{
+                padding: 7px;
+                border-radius: 7px 0px 0px 7px;
+            }
+            input[type="text"]:focus {
+                outline: none;
+            }
+
+            button{
+                text-transform: uppercase;
+                color: #ffffff;
+                background-color: #363438;
+                padding: 7px;
+                border-radius: 0px 7px 7px 0px;
+            }
+        }
+    }
+
+    .right{
+        display: flex;
+        gap: 10px;
+        color: #ffffff;
+    }
+
 }
