@@ -42,7 +42,9 @@ const Navbar = () => {
           </div>
         </div>
         <div className="center">
-          <h1> LAMASTORE </h1>
+          <Link to="/">
+            <h1> LAMASTORE </h1>
+          </Link>
         </div>
         <div className="right">
           <div>
