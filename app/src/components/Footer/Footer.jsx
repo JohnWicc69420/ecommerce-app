@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
       <div className="footerContainer">
-        <div className="categories">
+        <div className="category">
           <h1>Categories</h1>
           <p>
             <Link to="/products">Women</Link>

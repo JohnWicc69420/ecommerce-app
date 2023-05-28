@@ -6,7 +6,7 @@ const Products = () => {
   const ban = [
     {
       banImg:
-        "https://images.pexels.com/photos/3851311/pexels-photo-3851311.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://img.freepik.com/free-photo/spring-wardrobe-switch-still-life_23-2150176694.jpg?w=1380&t=st=1685264562~exp=1685265162~hmac=57686b80bea2f3724572ca2a15a63c38dca3c6a033550991295d72757c5dd51a",
     },
   ];
   const data = [

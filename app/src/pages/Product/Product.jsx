@@ -2,7 +2,11 @@ import React from "react";
 import "./Product.scss";
 
 const Product = () => {
-  return <></>;
+  return (
+    <>
+      <h1>lkjasdlf</h1>
+    </>
+  );
 };
 
 export default Product;
