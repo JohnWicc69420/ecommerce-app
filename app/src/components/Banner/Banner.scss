@@ -3,21 +3,7 @@
     align-items: center;
     justify-content: space-between;
     background: #3171F9;
-    margin: 100px 0px;
-
-    @media (max-width: 576px) {
-        padding: 15px 15px;
-        flex-direction: column;
-    }
-
-    @media (min-width: 768px) {
-        padding: 15px 40px;
-    }
-
-
-    @media (min-width: 992px) {
-        padding: 15px 270px;
-    }
+    margin: 50px 0px 100px;
 
     .left{
         text-transform: uppercase;
@@ -55,4 +41,30 @@
         color: #ffffff;
     }
 
+    @media (max-width: 576px) {
+        padding: 15px 15px;
+        flex-direction: column;
+        .left, .center, .right{
+            padding: 8px 0px;
+        }
+    }
+
+    @media (min-width: 576px) and (max-width: 768px) {
+        flex-direction: column;
+        .left, .center, .right{
+            padding: 8px 0px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        padding: 12px 70px;
+    }
+
+    @media (min-width: 1024px) {
+        padding: 15px 150px;
+    }
+
+    @media (min-width: 1224px) {
+        padding: 15px 250px;
+    }
 }
