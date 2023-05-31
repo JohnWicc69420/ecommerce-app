@@ -10,6 +10,8 @@ export const data = [
     oldPrice: "79.99",
     newPrice: "59.99",
     name: "Long Sleeve Coat",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
+    type: "Coat",
   },
   {
     id: "2",
@@ -18,6 +20,8 @@ export const data = [
     oldPrice: "69.99",
     newPrice: "49.99",
     name: "Winter Coat Orange",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
+    type: "Coat",
   },
   {
     id: "3",
@@ -26,6 +30,8 @@ export const data = [
     oldPrice: "79.99",
     newPrice: "59.99",
     name: "Brown Coat",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
+    type: "Coat",
   },
   {
     id: "4",
@@ -34,6 +40,8 @@ export const data = [
     oldPrice: "59.99",
     newPrice: "39.99",
     name: "Men's Jeans Jacket",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
+    type: "Jacket",
   },
   {
     id: "5",
@@ -42,6 +50,8 @@ export const data = [
     oldPrice: "79.99",
     newPrice: "59.99",
     name: "Long Sleeve Coat",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
+    type: "Coat",
   },
   {
     id: "6",
@@ -50,6 +60,8 @@ export const data = [
     oldPrice: "69.99",
     newPrice: "49.99",
     name: "Winter Coat Orange",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
+    type: "Coat",
   },
   {
     id: "7",
@@ -58,6 +70,8 @@ export const data = [
     oldPrice: "79.99",
     newPrice: "59.99",
     name: "Brown Coat",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
+    type: "Coat",
   },
   {
     id: "8",
@@ -66,6 +80,8 @@ export const data = [
     oldPrice: "59.99",
     newPrice: "39.99",
     name: "Men's Jeans Jacket",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
+    type: "Jacket",
   },
   {
     id: "9",
@@ -74,6 +90,8 @@ export const data = [
     oldPrice: "79.99",
     newPrice: "59.99",
     name: "Long Sleeve Coat",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
+    type: "Coat",
   },
   {
     id: "10",
@@ -82,6 +100,8 @@ export const data = [
     oldPrice: "69.99",
     newPrice: "49.99",
     name: "Winter Coat Orange",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
+    type: "Coat",
   },
   {
     id: "11",
@@ -90,6 +110,8 @@ export const data = [
     oldPrice: "79.99",
     newPrice: "59.99",
     name: "Brown Coat",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
+    type: "Coat",
   },
   {
     id: "12",
@@ -98,6 +120,8 @@ export const data = [
     oldPrice: "59.99",
     newPrice: "39.99",
     name: "Men's Jeans Jacket",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
+    type: "Jacket",
   },
   {
     id: "13",
@@ -106,6 +130,8 @@ export const data = [
     oldPrice: "79.99",
     newPrice: "59.99",
     name: "Long Sleeve Coat",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
+    type: "Coat",
   },
   {
     id: "14",
@@ -114,6 +140,8 @@ export const data = [
     oldPrice: "69.99",
     newPrice: "49.99",
     name: "Winter Coat Orange",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
+    type: "Coat",
   },
   {
     id: "15",
@@ -122,6 +150,8 @@ export const data = [
     oldPrice: "79.99",
     newPrice: "59.99",
     name: "Brown Coat",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
+    type: "Coat",
   },
   {
     id: "16",
@@ -130,6 +160,8 @@ export const data = [
     oldPrice: "59.99",
     newPrice: "39.99",
     name: "Men's Jeans Jacket",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
+    type: "Jacket",
   },
   {
     id: "17",
@@ -138,6 +170,8 @@ export const data = [
     oldPrice: "79.99",
     newPrice: "59.99",
     name: "Long Sleeve Coat",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
+    type: "Coat",
   },
   {
     id: "18",
@@ -146,6 +180,8 @@ export const data = [
     oldPrice: "69.99",
     newPrice: "49.99",
     name: "Winter Coat Orange",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
+    type: "Coat",
   },
   {
     id: "19",
@@ -154,6 +190,8 @@ export const data = [
     oldPrice: "79.99",
     newPrice: "59.99",
     name: "Brown Coat",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
+    type: "Coat",
   },
   {
     id: "20",
@@ -162,6 +200,8 @@ export const data = [
     oldPrice: "59.99",
     newPrice: "39.99",
     name: "Men's Jeans Jacket",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
+    type: "Jacket",
   },
 ];
 
@@ -169,7 +209,7 @@ const Products = () => {
   const ban = [
     {
       banImg:
-        "https://img.freepik.com/free-photo/spring-wardrobe-switch-still-life_23-2150176694.jpg?w=1380&t=st=1685264562~exp=1685265162~hmac=57686b80bea2f3724572ca2a15a63c38dca3c6a033550991295d72757c5dd51a",
+        "https://images.pexels.com/photos/3255155/pexels-photo-3255155.jpeg",
     },
   ];
 
@@ -209,13 +249,13 @@ const Products = () => {
             </div>
           </div>
         </div>
-        <div className="right">
+        <div className="right right-icons">
           <div className="catImg">
             <img src={ban[0].banImg} alt="" />
           </div>
           <div className="cards">
-            {data.map((item) => (
-              <Card item={item} key={item.id} />
+            {data?.map((item) => (
+              <Card item={item} key={item.id} img1={item.img1} />
             ))}
           </div>
         </div>

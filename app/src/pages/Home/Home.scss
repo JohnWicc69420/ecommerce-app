@@ -8,7 +8,6 @@
 .swiper{
     width: 100vw;
     max-height: calc(100vh - 52px);
-    // clip-path: polygon(0 10%, 100% 10%, 100% 100%, 0 100%);
     object-fit: contain;
     position: relative;
 
@@ -26,9 +25,9 @@
         padding-bottom: 20px;
     }
 
-    // .swiper-pagination-bullet{
-    // }
-
+    .swiper-pagination-bullet{
+        background-color: white;
+     }
     img{
         width: 100vw;
         object-fit: contain;         
