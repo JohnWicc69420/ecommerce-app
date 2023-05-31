@@ -1,11 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Product.scss";
 import { data } from "../Products/Products";
 import { useParams } from "react-router-dom";
+import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 
 const Product = () => {
   const { id } = useParams();
   const item = data.find((item) => item.id === id);
+  let [quan, setQuan] = useState(1);
+
+  const handleQuanDec = () => {
+    quan >= 1 && setQuan(--quan);
+  };
+
+  const handleQuanInc = () => {
+    setQuan(++quan);
+  };
 
   const description =
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!";
@@ -28,10 +38,23 @@ const Product = () => {
         </div>
         <div className="right">
           <div className="title">{item.name}</div>
-          <div className="price">{item.newPrice}</div>
+          <div className="price">${item.newPrice}</div>
           <div className="desc">{item.desc}</div>
-          <div className="quantity"></div>
-          <div className="addToCart"></div>
+          <div className="quantity">
+            <div className="dec" onClick={handleQuanDec}>
+              -
+            </div>
+            <span>{quan}</span>
+            <div className="inc" onClick={handleQuanInc}>
+              +
+            </div>
+          </div>
+          <div className="addToCart">
+            <span>
+              <AddShoppingCartIcon fontSize="small" />
+            </span>
+            <span>Add to cart</span>
+          </div>
           <div className="addButtons">
             <div className="addToWishlist"></div>
             <div className="addToCompare"></div>
