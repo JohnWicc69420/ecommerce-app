@@ -3,18 +3,35 @@ import "./Product.scss";
 import { data } from "../Products/Products";
 import { useParams } from "react-router-dom";
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
+import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
+import BalanceIcon from "@mui/icons-material/Balance";
 
 const Product = () => {
   const { id } = useParams();
   const item = data.find((item) => item.id === id);
   let [quan, setQuan] = useState(1);
+  let [openDesc, setOpenDesc] = useState(false);
+  let [openAddInfo, setOpenAddInfo] = useState(false);
+  let [openFaq, setOpenFaq] = useState(false);
 
   const handleQuanDec = () => {
-    quan >= 1 && setQuan(--quan);
+    quan >= 2 && setQuan(--quan);
   };
 
   const handleQuanInc = () => {
     setQuan(++quan);
+  };
+
+  const handleOpenDesc = () => {
+    setOpenDesc(!openDesc);
+  };
+
+  const handleOpenAddInfo = () => {
+    setOpenAddInfo(!openAddInfo);
+  };
+
+  const handleOpenFaq = () => {
+    setOpenFaq(!openFaq);
   };
 
   const description =
@@ -56,13 +73,47 @@ const Product = () => {
             <span>Add to cart</span>
           </div>
           <div className="addButtons">
-            <div className="addToWishlist"></div>
-            <div className="addToCompare"></div>
+            <div className="addToWishlist">
+              <FavoriteBorderIcon />
+              <span>Add to Wishlist</span>
+            </div>
+            <div className="addToCompare">
+              <BalanceIcon />
+              <span>Add to Compare</span>
+            </div>
           </div>
-          <div className="type">{item.type}</div>
-          <div className="description">{description}</div>
-          <div className="addInfo">{addInfo}</div>
-          <div className="faq">{faq}</div>
+          <div className="vendor">
+            <span>Vendor: </span> {item.vendor}
+          </div>
+          <div className="type">
+            <span>Product-Type: </span>
+            {item.type}
+          </div>
+          <div className="tag">
+            <span>Tag: </span>
+            {item.tag}
+          </div>
+          <hr className="hr" />
+
+          <div className="description">
+            <span onClick={handleOpenDesc}>
+              Description <hr />
+            </span>
+            {openDesc && description}
+          </div>
+
+          <div className="addInfo">
+            <span onClick={handleOpenAddInfo}>
+              Additional Information <hr />
+            </span>
+            {openAddInfo && addInfo}
+          </div>
+          <div className="faq">
+            <span onClick={handleOpenFaq}>
+              Faq <hr />
+            </span>
+            {openFaq && faq}
+          </div>
         </div>
       </div>
     </>

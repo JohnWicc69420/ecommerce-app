@@ -12,6 +12,8 @@ export const data = [
     name: "Long Sleeve Coat",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
     type: "Coat",
+    vendor: "Polo",
+    tag: "Clothing, Fashion, Top",
   },
   {
     id: "2",
@@ -22,6 +24,8 @@ export const data = [
     name: "Winter Coat Orange",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
     type: "Coat",
+    vendor: "Polo",
+    tag: "Clothing, Fashion, Top",
   },
   {
     id: "3",
@@ -32,6 +36,8 @@ export const data = [
     name: "Brown Coat",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
     type: "Coat",
+    vendor: "Polo",
+    tag: "Clothing, Fashion, Top",
   },
   {
     id: "4",
@@ -42,6 +48,8 @@ export const data = [
     name: "Men's Jeans Jacket",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
     type: "Jacket",
+    vendor: "Polo",
+    tag: "Clothing, Fashion, Top",
   },
   {
     id: "5",
@@ -52,6 +60,8 @@ export const data = [
     name: "Long Sleeve Coat",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
     type: "Coat",
+    vendor: "Polo",
+    tag: "Clothing, Fashion, Top",
   },
   {
     id: "6",
@@ -62,6 +72,8 @@ export const data = [
     name: "Winter Coat Orange",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
     type: "Coat",
+    vendor: "Polo",
+    tag: "Clothing, Fashion, Top",
   },
   {
     id: "7",
@@ -72,6 +84,8 @@ export const data = [
     name: "Brown Coat",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
     type: "Coat",
+    vendor: "Polo",
+    tag: "Clothing, Fashion, Top",
   },
   {
     id: "8",
@@ -82,6 +96,8 @@ export const data = [
     name: "Men's Jeans Jacket",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
     type: "Jacket",
+    vendor: "Polo",
+    tag: "Clothing, Fashion, Top",
   },
   {
     id: "9",
@@ -92,6 +108,8 @@ export const data = [
     name: "Long Sleeve Coat",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
     type: "Coat",
+    vendor: "Polo",
+    tag: "Clothing, Fashion, Top",
   },
   {
     id: "10",
@@ -102,6 +120,8 @@ export const data = [
     name: "Winter Coat Orange",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
     type: "Coat",
+    vendor: "Polo",
+    tag: "Clothing, Fashion, Top",
   },
   {
     id: "11",
@@ -112,6 +132,8 @@ export const data = [
     name: "Brown Coat",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
     type: "Coat",
+    vendor: "Polo",
+    tag: "Clothing, Fashion, Top",
   },
   {
     id: "12",
@@ -122,6 +144,8 @@ export const data = [
     name: "Men's Jeans Jacket",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
     type: "Jacket",
+    vendor: "Polo",
+    tag: "Clothing, Fashion, Top",
   },
   {
     id: "13",
@@ -132,6 +156,8 @@ export const data = [
     name: "Long Sleeve Coat",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
     type: "Coat",
+    vendor: "Polo",
+    tag: "Clothing, Fashion, Top",
   },
   {
     id: "14",
@@ -142,6 +168,8 @@ export const data = [
     name: "Winter Coat Orange",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
     type: "Coat",
+    vendor: "Polo",
+    tag: "Clothing, Fashion, Top",
   },
   {
     id: "15",
@@ -152,6 +180,8 @@ export const data = [
     name: "Brown Coat",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
     type: "Coat",
+    vendor: "Polo",
+    tag: "Clothing, Fashion, Top",
   },
   {
     id: "16",
@@ -162,6 +192,8 @@ export const data = [
     name: "Men's Jeans Jacket",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
     type: "Jacket",
+    vendor: "Polo",
+    tag: "Clothing, Fashion, Top",
   },
   {
     id: "17",
@@ -172,6 +204,8 @@ export const data = [
     name: "Long Sleeve Coat",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
     type: "Coat",
+    vendor: "Polo",
+    tag: "Clothing, Fashion, Top",
   },
   {
     id: "18",
@@ -182,6 +216,8 @@ export const data = [
     name: "Winter Coat Orange",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
     type: "Coat",
+    vendor: "Polo",
+    tag: "Clothing, Fashion, Top",
   },
   {
     id: "19",
@@ -192,6 +228,8 @@ export const data = [
     name: "Brown Coat",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
     type: "Coat",
+    vendor: "Polo",
+    tag: "Clothing, Fashion, Top",
   },
   {
     id: "20",
@@ -202,6 +240,8 @@ export const data = [
     name: "Men's Jeans Jacket",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
     type: "Jacket",
+    vendor: "Polo",
+    tag: "Clothing, Fashion, Top",
   },
 ];
 

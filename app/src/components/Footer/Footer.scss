@@ -18,3 +18,17 @@
         font-weight: 400;
     }
 }
+
+@media  screen and (max-width: 992px) {
+    .footerContainer{
+    display: flex;
+    padding: 20px 30px;
+    .category{
+        display: none;
+    }
+    .links{
+        display: none;
+    }
+}
+    
+}
