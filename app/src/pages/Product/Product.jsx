@@ -5,7 +5,6 @@ import { useParams } from "react-router-dom";
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import BalanceIcon from "@mui/icons-material/Balance";
-import Cart from "../../components/Cart/Cart";
 
 const Product = ({ addItem, cartItems }) => {
   const { id } = useParams();
