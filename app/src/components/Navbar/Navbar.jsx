@@ -8,15 +8,21 @@ import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import "./Navbar.scss";
 import { Link } from "react-router-dom";
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
-import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
-import ContactPhoneOutlinedIcon from "@mui/icons-material/ContactPhoneOutlined";
 import StoreOutlinedIcon from "@mui/icons-material/StoreOutlined";
+import Cart from "../Cart/Cart";
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
   const handleMenu = () => {
     setOpenMenu(!openMenu);
   };
+
+  const [openCart, setOpenCart] = useState(false);
+  const handleOpenCart = () => {
+    setOpenCart(!openCart);
+  };
+
+  const [cartItems, setCartItems] = useState(0);
 
   return (
     <>
@@ -125,7 +131,15 @@ const Navbar = () => {
           <SearchIcon className="icon" />
           <PersonOutlineOutlinedIcon className="icon" />
           <FavoriteBorderOutlinedIcon className="icon" />
-          <ShoppingCartOutlinedIcon className="icon" />
+          <div className="cartButton" onClick={handleOpenCart}>
+            <ShoppingCartOutlinedIcon className="icon" />
+            <span>{cartItems}</span>
+            {openCart && (
+              <div className="cart">
+                <Cart cartItems={cartItems} setCartItems={setCartItems} />
+              </div>
+            )}
+          </div>
         </div>
         <div className="right-icons">
           <div>
@@ -133,19 +147,6 @@ const Navbar = () => {
               <HomeOutlinedIcon className="icon" />
             </Link>
           </div>
-
-          <div>
-            <Link to="/about">
-              <InfoOutlinedIcon className="icon" />
-            </Link>
-          </div>
-
-          <div>
-            <Link to="/contact">
-              <ContactPhoneOutlinedIcon className="icon" />
-            </Link>
-          </div>
-
           <div>
             <Link to="/stores">
               <StoreOutlinedIcon className="icon" />
@@ -154,10 +155,19 @@ const Navbar = () => {
           <SearchIcon className="icon" />
           <PersonOutlineOutlinedIcon className="icon" />
           <FavoriteBorderOutlinedIcon className="icon" />
-          <ShoppingCartOutlinedIcon className="icon" />
+          <div className="cartButton" onClick={handleOpenCart}>
+            <ShoppingCartOutlinedIcon className="icon" />
+            <span>{cartItems}</span>
+            {openCart && (
+              <div className="cart">
+                <Cart cartItems={cartItems} setCartItems={setCartItems} />
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </>
   );
 };
+
 export default Navbar;

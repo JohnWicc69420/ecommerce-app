@@ -1,13 +1,12 @@
 import React from "react";
 import "./Home.scss";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Navigation } from "swiper";
+import { Pagination, Navigation, Autoplay } from "swiper";
 import FeaturedProducts from "../../components/FeaturedProducts/FeaturedProducts";
 import TrendingProducts from "../../components/TrendingProducts/TrendingProducts";
 import Category from "../../components/Category/Category";
 import Banner from "../../components/Banner/Banner";
 import { data } from "../Products/Products";
-
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -26,11 +25,15 @@ const Home = () => {
           slidesPerView={1}
           spaceBetween={0}
           loop={true}
+          autoplay={{
+            delay: 3000,
+            disableOnInteraction: false,
+          }}
           pagination={{
             clickable: true,
           }}
           navigation={true}
-          modules={[Pagination, Navigation]}
+          modules={[Pagination, Navigation, Autoplay]}
           className="mySwiper"
         >
           <SwiperSlide>

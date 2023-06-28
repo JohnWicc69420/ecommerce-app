@@ -2,12 +2,15 @@
     max-width: none;
     width: 100vw;
     padding: 10px 30px;
-    position: relative;
+    position: sticky;
     display: flex;
+    top: 0;
+    background-color: white;
     justify-content: space-between;
     font-size: 1rem;
     align-items: center;
     font-weight: 500;
+    z-index: 9998;
 
     .icon{
         color: #717171;
@@ -35,7 +38,31 @@
 
     .right{
         display: flex;
-        gap: 10px;        
+        gap: 10px;
+        .cartButton{
+            position: relative;
+                .cart{
+                z-index: 9999;
+                position: absolute;
+                right: 0;
+                padding: 10px 15px;
+                background-color: white;
+            }
+            span{
+                color: white;
+                background-color: #3270F6;
+                font-size: .75rem;
+                font-weight: 300;
+                border-radius: 50%;
+                position: absolute;
+                top: -5px;
+                right: 0;
+                transform: translateX(50%);
+                height: 18px;
+                width: 18px;
+                text-align: center;
+            } 
+        }
     }
 
     .right-icons{
@@ -81,6 +108,30 @@
         .right-icons{
             display: flex;
             gap: 10px;
+            .cartButton{
+                position: relative;
+                    .cart{
+                    z-index: 9999;
+                    position: absolute;
+                    right: 0;
+                    padding: 10px 15px;
+                    background-color: white;
+                }
+                span{
+                    color: white;
+                    background-color: #3270F6;
+                    font-size: .75rem;
+                    font-weight: 300;
+                    border-radius: 50%;
+                    position: absolute;
+                    top: -5px;
+                    right: 0;
+                    transform: translateX(50%);
+                    height: 18px;
+                    width: 18px;
+                    text-align: center;
+                }  
+            }
         }
     }
 
