@@ -6,13 +6,33 @@ import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import BalanceIcon from "@mui/icons-material/Balance";
 
-const Product = ({ addItem, cartItems }) => {
+const Product = ({ addItem }) => {
   const { id } = useParams();
   const item = data.find((item) => item.id === id);
   let [quan, setQuan] = useState(1);
   let [openDesc, setOpenDesc] = useState(false);
   let [openAddInfo, setOpenAddInfo] = useState(false);
   let [openFaq, setOpenFaq] = useState(false);
+  const [mainImage, setMainImage] = useState(item.img1);
+
+  const handleImageClick = () => {
+    setMainImage((prevImage) =>
+      prevImage === item.img1 ? item.img2 : item.img1
+    );
+  };
+
+  const handleAddToCart = (event) => {
+    event.preventDefault();
+    const newItem = {
+      id: item.id,
+      img: item.img1,
+      name: item.name,
+      price: item.newPrice,
+      quantity: quan,
+      desc: item.desc,
+    };
+    addItem(newItem);
+  };
 
   const handleQuanDec = () => {
     quan >= 2 && setQuan(--quan);
@@ -46,11 +66,11 @@ const Product = ({ addItem, cartItems }) => {
       <div className="productContainer">
         <div className="left">
           <div className="images">
-            <img src={item.img1} alt="" />
-            <img src={item.img2} alt="" />
+            <img onClick={handleImageClick} src={item.img1} alt="" />
+            <img onClick={handleImageClick} src={item.img2} alt="" />
           </div>
           <div className="mainImage">
-            <img src={item.img1} alt="" />
+            <img src={mainImage} alt="" />
           </div>
         </div>
         <div className="right">
@@ -66,7 +86,7 @@ const Product = ({ addItem, cartItems }) => {
               +
             </div>
           </div>
-          <div className="addToCart">
+          <div className="addToCart" onClick={handleAddToCart}>
             <span>
               <AddShoppingCartIcon fontSize="small" />
             </span>
