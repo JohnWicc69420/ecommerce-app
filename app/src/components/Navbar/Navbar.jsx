@@ -35,24 +35,19 @@ const Navbar = () => {
             />
             <KeyboardArrowDownIcon />
           </div>
-
           <div className="img">
             <span>USD</span>
             <KeyboardArrowDownIcon />
           </div>
-
           <div className="product">
             <Link to="/products/men">Men</Link>
           </div>
-
           <div className="product">
             <Link to="/products/women">Women</Link>
           </div>
-
           <div className="product">
             <Link to="/products/children">Children</Link>
           </div>
-
           <div className="product">
             <Link to="/products/accessories">Accessories</Link>
           </div>
