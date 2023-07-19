@@ -9,19 +9,19 @@ const Footer = () => {
         <div className="category">
           <h1>Categories</h1>
           <p>
-            <Link to="/products">Women</Link>
+            <Link to="/products/Women">Women</Link>
           </p>
           <p>
-            <Link to="/products">Men</Link>
+            <Link to="/products/Men">Men</Link>
           </p>
           <p>
-            <Link to="/products">Shoes</Link>
+            <Link to="/products/Shoes">Shoes</Link>
           </p>
           <p>
-            <Link to="/products">Accessories</Link>
+            <Link to="/products/Accessories">Accessories</Link>
           </p>
           <p>
-            <Link to="/products">New Arrivals</Link>
+            <Link to="/products/New_Arrivals">New Arrivals</Link>
           </p>
         </div>
         <div className="links">

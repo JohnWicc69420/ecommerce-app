@@ -3,6 +3,7 @@ import Card from "../Card/Card";
 import "./FeaturedProducts.scss";
 
 const FeaturedProducts = ({ data }) => {
+  const featuredData = data.filter((item) => item.popularity === "featured");
   return (
     <>
       <div className="fpContainer">
@@ -18,7 +19,7 @@ const FeaturedProducts = ({ data }) => {
           </p>
         </div>
         <div className="bottom">
-          {data?.slice(0, 4).map((item) => (
+          {featuredData?.slice(0, 4).map((item) => (
             <Card item={item} key={item.id} />
           ))}
         </div>

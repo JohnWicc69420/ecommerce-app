@@ -11,7 +11,7 @@ import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 import StoreOutlinedIcon from "@mui/icons-material/StoreOutlined";
 import Cart from "../Cart/Cart";
 
-const Navbar = () => {
+const Navbar = ({ cartItems, removeItem }) => {
   const [openMenu, setOpenMenu] = useState(false);
   const handleMenu = () => {
     setOpenMenu(!openMenu);
@@ -21,8 +21,6 @@ const Navbar = () => {
   const handleOpenCart = () => {
     setOpenCart(!openCart);
   };
-
-  const [cartItems, setCartItems] = useState(0);
 
   return (
     <>
@@ -35,19 +33,24 @@ const Navbar = () => {
             />
             <KeyboardArrowDownIcon />
           </div>
+
           <div className="img">
             <span>USD</span>
             <KeyboardArrowDownIcon />
           </div>
+
           <div className="product">
             <Link to="/products/men">Men</Link>
           </div>
+
           <div className="product">
             <Link to="/products/women">Women</Link>
           </div>
+
           <div className="product">
             <Link to="/products/children">Children</Link>
           </div>
+
           <div className="product">
             <Link to="/products/accessories">Accessories</Link>
           </div>
@@ -126,16 +129,20 @@ const Navbar = () => {
           <SearchIcon className="icon" />
           <PersonOutlineOutlinedIcon className="icon" />
           <FavoriteBorderOutlinedIcon className="icon" />
-          <div className="cartButton" onClick={handleOpenCart}>
-            <ShoppingCartOutlinedIcon className="icon" />
-            <span>{cartItems}</span>
+          <div className="cartButton">
+            <ShoppingCartOutlinedIcon
+              onClick={handleOpenCart}
+              className="icon"
+            />
+            <span onClick={handleOpenCart}>{cartItems.length}</span>
             {openCart && (
               <div className="cart">
-                <Cart cartItems={cartItems} setCartItems={setCartItems} />
+                <Cart cartItems={cartItems} removeItem={removeItem} />
               </div>
             )}
           </div>
         </div>
+
         <div className="right-icons">
           <div>
             <Link to="/">
@@ -150,12 +157,15 @@ const Navbar = () => {
           <SearchIcon className="icon" />
           <PersonOutlineOutlinedIcon className="icon" />
           <FavoriteBorderOutlinedIcon className="icon" />
-          <div className="cartButton" onClick={handleOpenCart}>
-            <ShoppingCartOutlinedIcon className="icon" />
-            <span>{cartItems}</span>
+          <div className="cartButton">
+            <ShoppingCartOutlinedIcon
+              onClick={handleOpenCart}
+              className="icon"
+            />
+            <span onClick={handleOpenCart}>{cartItems.length}</span>
             {openCart && (
               <div className="cart">
-                <Cart cartItems={cartItems} setCartItems={setCartItems} />
+                <Cart cartItems={cartItems} removeItem={removeItem} />
               </div>
             )}
           </div>

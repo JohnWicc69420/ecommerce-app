@@ -57,7 +57,7 @@ const Home = () => {
       </div>
 
       <div className="trendingProducts">
-        <TrendingProducts />
+        <TrendingProducts data={data} />
       </div>
 
       <div className="banner">
