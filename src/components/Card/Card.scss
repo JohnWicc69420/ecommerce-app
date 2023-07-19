@@ -1,0 +1,66 @@
+.cardContainer {
+  margin-bottom: 40px;
+    h1{
+        padding-top: 6px;
+    }
+    .images {
+      height: 100%;
+      position: relative;
+      height: fit-content;
+
+      .img{
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .img2 {
+        display: none;
+      }
+
+      &:hover .img1 {
+        display: none;
+      }
+      &:hover .img2 {
+        display: block;
+      }
+    }
+    .prices{
+        display: flex;
+        gap: 10px;
+        
+        .oldPrice{
+            color: gray;
+            text-decoration: line-through;
+        }
+    }
+
+    @media screen and (min-width: 320px){
+    .images {
+      img{
+        width: 180px;
+        height: 270px;
+        object-fit: cover;
+      }
+    }
+    }
+
+    @media screen and (min-width: 768px){
+      .images { 
+        img{
+          width: 200px;
+          height: 300px;
+          object-fit: cover;
+        }
+      }
+      }
+
+      @media screen and (min-width: 1024px){
+        .images {
+          img{
+            width: 230px;
+            height: 345px;
+            object-fit: cover;
+          }
+        }
+    }
+  }
