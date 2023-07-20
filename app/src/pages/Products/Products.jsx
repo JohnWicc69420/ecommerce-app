@@ -173,6 +173,7 @@ const Products = () => {
   ];
 
   const [maxValue, setMaxValue] = useState(1000);
+  
   const [sortType, setSortType] = useState("");
   const [checkedTypes, setCheckedTypes] = useState([]);
 
