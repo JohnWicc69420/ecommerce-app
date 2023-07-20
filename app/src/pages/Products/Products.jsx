@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import "./Products.scss";
 import Card from "../../components/Card/Card";
+import { useParams } from "react-router-dom";
 
 export const data = [
   {
@@ -16,6 +17,7 @@ export const data = [
     vendor: "Polo",
     tag: "Clothing, Fashion, Top",
     popularity: "featured",
+    cat: "men",
   },
   {
     id: "2",
@@ -29,6 +31,7 @@ export const data = [
     vendor: "Polo",
     tag: "Clothing, Fashion, Top",
     popularity: "trending",
+    cat: "women",
   },
   {
     id: "3",
@@ -42,6 +45,7 @@ export const data = [
     vendor: "Polo",
     tag: "Clothing, Fashion, Top",
     popularity: "trending",
+    cat: "men",
   },
   {
     id: "4",
@@ -55,6 +59,7 @@ export const data = [
     vendor: "Polo",
     tag: "Clothing, Fashion, Top",
     popularity: "trending",
+    cat: "men",
   },
 
   {
@@ -69,6 +74,7 @@ export const data = [
     vendor: "Polo",
     tag: "Clothing, Fashion, Top",
     popularity: "featured",
+    cat: "women",
   },
 
   {
@@ -83,6 +89,7 @@ export const data = [
     vendor: "Polo",
     tag: "Clothing, Fashion, Top",
     popularity: "featured",
+    cat: "men",
   },
   {
     id: "7",
@@ -96,6 +103,7 @@ export const data = [
     vendor: "Polo",
     tag: "Clothing, Fashion, Top",
     popularity: "trending",
+    cat: "men",
   },
   {
     id: "8",
@@ -109,6 +117,7 @@ export const data = [
     vendor: "Polo",
     tag: "Clothing, Fashion, Top",
     popularity: "trending",
+    cat: "women",
   },
   {
     id: "9",
@@ -122,6 +131,7 @@ export const data = [
     vendor: "Polo",
     tag: "Clothing, Fashion, Top",
     popularity: "featured",
+    cat: "men",
   },
   {
     id: "10",
@@ -135,6 +145,7 @@ export const data = [
     vendor: "Polo",
     tag: "Clothing, Fashion, Top",
     popularity: "featured",
+    cat: "men",
   },
   {
     id: "11",
@@ -148,6 +159,7 @@ export const data = [
     vendor: "Polo",
     tag: "Clothing, Fashion, Top",
     popularity: "trending",
+    cat: "men",
   },
   {
     id: "12",
@@ -161,10 +173,12 @@ export const data = [
     vendor: "Polo",
     tag: "Clothing, Fashion, Top",
     popularity: "featured",
+    cat: "men",
   },
 ];
 
 const Products = () => {
+  const { catId } = useParams();
   const ban = [
     {
       banImg:
@@ -173,29 +187,18 @@ const Products = () => {
   ];
 
   const [maxValue, setMaxValue] = useState(1000);
-  
   const [sortType, setSortType] = useState("");
-  const [checkedTypes, setCheckedTypes] = useState([]);
 
-  const handleCheckboxChange = (event) => {
-    const { value, checked } = event.target;
-    if (checked) {
-      setCheckedTypes((prevTypes) => [...prevTypes, value]);
-    } else {
-      setCheckedTypes((prevTypes) =>
-        prevTypes.filter((type) => type !== value)
-      );
-    }
-  };
+  const catData = data.filter((item) => item.cat === catId)
 
   const sortData = () => {
     if (sortType === "asc") {
-      return data.sort((a, b) => a.newPrice - b.newPrice);
+      return catData.sort((a, b) => a.newPrice - b.newPrice);
     }
     if (sortType === "desc") {
-      return data.sort((a, b) => b.newPrice - a.newPrice);
+      return catData.sort((a, b) => b.newPrice - a.newPrice);
     }
-    return data;
+    return catData;
   };
 
   const sortedData = sortData();

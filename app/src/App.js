@@ -51,7 +51,7 @@ function App() {
           element: <Home />
         },
         {
-          path: "/products/:id",
+          path: "/products/:catId",
           element: <Products />
         },
         {
