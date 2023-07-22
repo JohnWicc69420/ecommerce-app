@@ -188,6 +188,7 @@ const Products = () => {
 
   const [maxValue, setMaxValue] = useState(1000);
   const [sortType, setSortType] = useState("");
+  const [selectedCheckboxes, setSelectedCheckboxes] = useState({});
 
   const catData = data.filter((item) => item.cat === catId)
 
@@ -214,11 +215,11 @@ const Products = () => {
           <div className="inputs">
             <h1>Product Catogories</h1>
             <div className="input">
-              <input type="checkbox" id="hat" />
+              <input type="checkbox" id="jacket" value="jacket"/>
               <label htmlFor="hat">Jacket</label>
             </div>
             <div className="input">
-              <input type="checkbox" id="t-shirt" />
+              <input type="checkbox" id="coat" value="coat"/>
               <label htmlFor="t-shirt">Coat</label>
             </div>
           </div>
