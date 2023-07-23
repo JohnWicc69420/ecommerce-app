@@ -13,7 +13,7 @@ export const data = [
     newPrice: 39.99,
     name: "Casual Men's Shirt",
     desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit maiores repellendus consequuntur inventore",
-    type: "Shirt",
+    type: "shirt",
     vendor: "Polo",
     tag: "Clothing, Fashion, Top",
     popularity: "featured",
@@ -23,11 +23,11 @@ export const data = [
     id: "2",
     img1: "https://images.pexels.com/photos/6533895/pexels-photo-6533895.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     img2: "https://images.pexels.com/photos/6533887/pexels-photo-6533887.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    oldPrice: "79.99",
-    newPrice: "59.99",
+    oldPrice: 79.99,
+    newPrice: 59.99,
     name: "Brown Coat",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
-    type: "Coat",
+    type: "coat",
     vendor: "Polo",
     tag: "Clothing, Fashion, Top",
     popularity: "trending",
@@ -41,7 +41,7 @@ export const data = [
     newPrice: 29.99,
     name: "Long Sleeve Men's Shirt",
     desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit maiores repellendus consequuntur inventore",
-    type: "Shirt",
+    type: "shirt",
     vendor: "Polo",
     tag: "Clothing, Fashion, Top",
     popularity: "trending",
@@ -55,7 +55,7 @@ export const data = [
     newPrice: 34.99,
     name: "Men's Casual Shirt",
     desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit maiores repellendus consequuntur inventore",
-    type: "Shirt",
+    type: "shirt",
     vendor: "Polo",
     tag: "Clothing, Fashion, Top",
     popularity: "trending",
@@ -66,11 +66,11 @@ export const data = [
     id: "5",
     img1: "https://images.pexels.com/photos/1381565/pexels-photo-1381565.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     img2: "https://images.pexels.com/photos/1381551/pexels-photo-1381551.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    oldPrice: "79.99",
-    newPrice: "59.99",
+    oldPrice: 79.99,
+    newPrice: 59.99,
     name: "Long Sleeve Coat",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
-    type: "Coat",
+    type: "coat",
     vendor: "Polo",
     tag: "Clothing, Fashion, Top",
     popularity: "featured",
@@ -85,7 +85,7 @@ export const data = [
     newPrice: 39.99,
     name: "Men's Sweater",
     desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit maiores repellendus consequuntur inventore",
-    type: "Sweater",
+    type: "sweater",
     vendor: "Polo",
     tag: "Clothing, Fashion, Top",
     popularity: "featured",
@@ -99,7 +99,7 @@ export const data = [
     newPrice: 29.99,
     name: "Men's Casual Shirt",
     desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit maiores repellendus consequuntur inventore",
-    type: "Shirt",
+    type: "shirt",
     vendor: "Polo",
     tag: "Clothing, Fashion, Top",
     popularity: "trending",
@@ -109,11 +109,11 @@ export const data = [
     id: "8",
     img1: "https://images.pexels.com/photos/2821106/pexels-photo-2821106.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     img2: "https://images.pexels.com/photos/2821107/pexels-photo-2821107.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    oldPrice: "69.99",
-    newPrice: "49.99",
+    oldPrice: 69.99,
+    newPrice: 49.99,
     name: "Winter Coat Orange",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
-    type: "Coat",
+    type: "coat",
     vendor: "Polo",
     tag: "Clothing, Fashion, Top",
     popularity: "trending",
@@ -127,7 +127,7 @@ export const data = [
     newPrice: 29.99,
     name: "Men's Casual Shirt",
     desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit maiores repellendus consequuntur inventore",
-    type: "Shirt",
+    type: "shirt",
     vendor: "Polo",
     tag: "Clothing, Fashion, Top",
     popularity: "featured",
@@ -137,11 +137,11 @@ export const data = [
     id: "10",
     img1: "https://images.pexels.com/photos/4674399/pexels-photo-4674399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     img2: "https://images.pexels.com/photos/4674404/pexels-photo-4674404.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    oldPrice: "59.99",
-    newPrice: "39.99",
+    oldPrice: 59.99,
+    newPrice: 39.99,
     name: "Men's Jeans Jacket",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex impedit velit facilis blanditiis pariatur nobis voluptatum necessitatibus hic atque. Quos veritatis accusantium optio odit, saepe assumenda quod quis necessitatibus!",
-    type: "Jacket",
+    type: "jacket",
     vendor: "Polo",
     tag: "Clothing, Fashion, Top",
     popularity: "featured",
@@ -155,7 +155,7 @@ export const data = [
     newPrice: 49.99,
     name: "Men's Jeans Jacket",
     desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit maiores repellendus consequuntur inventore",
-    type: "Jacket",
+    type: "jacket",
     vendor: "Polo",
     tag: "Clothing, Fashion, Top",
     popularity: "trending",
@@ -169,7 +169,7 @@ export const data = [
     newPrice: 29.99,
     name: "Men's T-Shirt",
     desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit maiores repellendus consequuntur inventore",
-    type: "T-Shirt",
+    type: "t-shirt",
     vendor: "Polo",
     tag: "Clothing, Fashion, Top",
     popularity: "featured",
@@ -190,7 +190,7 @@ const Products = () => {
   const [sortType, setSortType] = useState("");
   const [selectedCheckboxes, setSelectedCheckboxes] = useState({});
 
-  const catData = data.filter((item) => item.cat === catId)
+  const catData = data.filter((item) => item.cat === catId) //Category data
 
   const sortData = () => {
     if (sortType === "asc") {
@@ -202,11 +202,30 @@ const Products = () => {
     return catData;
   };
 
-  const sortedData = sortData();
+  const sortedData = sortData();  // category sorted
 
   const priceFilteredData = sortedData.filter(
     (item) => item.newPrice <= maxValue
-  );
+  );                                 // data filtered with price
+
+  const handleCheckboxChange = (event) => {
+    const { id, checked } = event.target;
+    setSelectedCheckboxes((prevCheckboxes) => ({
+      ...prevCheckboxes,
+      [id]: checked,
+    }));
+  };
+
+  const uniqueTypes = [...new Set(catData.map((item) => item.type))];
+
+  const checkboxFilteredData =
+  Object.values(selectedCheckboxes).some(Boolean) 
+  ? priceFilteredData.filter((item) => {
+    const type = item.type;
+    // Check if the type exists in selectedCheckboxes and if it's true
+    return selectedCheckboxes[type];
+  })
+  : priceFilteredData;
 
   return (
     <>
@@ -214,15 +233,21 @@ const Products = () => {
         <div className="left">
           <div className="inputs">
             <h1>Product Catogories</h1>
-            <div className="input">
-              <input type="checkbox" id="jacket" value="jacket"/>
-              <label htmlFor="hat">Jacket</label>
-            </div>
-            <div className="input">
-              <input type="checkbox" id="coat" value="coat"/>
-              <label htmlFor="t-shirt">Coat</label>
-            </div>
+            {uniqueTypes.map((type) => (
+              <div className="input" key={type}>
+                <input
+                  type="checkbox"
+                  id={type}
+                  value={type}
+                  checked={selectedCheckboxes[type] || false}
+                  onChange={handleCheckboxChange}
+                />
+                <label className="typeLabel" htmlFor={type}>{type}</label>
+              </div>
+            ))}
           </div>
+
+          {console.log(selectedCheckboxes)}
 
           <div className="filter">
             <h1>Filter by price</h1>
@@ -266,7 +291,7 @@ const Products = () => {
             <img src={ban[0].banImg} alt="" />
           </div>
           <div className="cards">
-            {priceFilteredData?.map((item) => (
+            {checkboxFilteredData?.map((item) => (
               <Card item={item} key={item.id} />
             ))}
           </div>

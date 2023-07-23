@@ -20,9 +20,15 @@
         .inputs {
             .input {
                 margin-top: 2px;
-
+                display: flex;
+                align-items: center;
+                
                 input {
                     margin-right: 7px;
+                }
+
+                label{
+                    text-transform: capitalize;
                 }
             }
         }
