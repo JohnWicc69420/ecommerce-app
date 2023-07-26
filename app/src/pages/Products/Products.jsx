@@ -332,9 +332,7 @@ const Products = () => {
   const checkboxFilteredData =
   Object.values(selectedCheckboxes).some(Boolean) 
   ? priceFilteredData.filter((item) => {
-    const type = item.type;
-    // Check if the type exists in selectedCheckboxes and if it's true
-    return selectedCheckboxes[type];
+    return selectedCheckboxes[item.type];
   })
   : priceFilteredData;
 
