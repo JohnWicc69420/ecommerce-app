@@ -39,6 +39,9 @@
         display: flex;
         gap: 10px;
         color: #ffffff;
+        .icon{
+            cursor: pointer;
+        }
     }
 
     @media (max-width: 576px) {

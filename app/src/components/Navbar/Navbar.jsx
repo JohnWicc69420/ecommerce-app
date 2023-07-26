@@ -48,7 +48,7 @@ const Navbar = ({ cartItems, removeItem }) => {
           </div>
 
           <div className="product">
-            <Link to="/products/children">Children</Link>
+            <Link to="/products/shoes">Shoes</Link>
           </div>
 
           <div className="product">

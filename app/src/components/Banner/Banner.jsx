@@ -20,11 +20,21 @@ const Banner = () => {
           </div>
         </div>
         <div className="right">
+          <div className="icon">
           <FacebookIcon />
+          </div>
+          <div className="icon">
           <InstagramIcon />
+          </div>
+          <div className="icon">
           <TwitterIcon />
+          </div>
+          <div className="icon">
           <GoogleIcon />
+          </div>
+          <div className="icon">
           <PinterestIcon />
+          </div>                
         </div>
       </div>
     </>

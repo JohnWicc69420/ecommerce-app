@@ -8,22 +8,47 @@
       position: relative;
       height: fit-content;
 
-      .img{
+      img{
         height: 100%;
         object-fit: cover;
       }
 
+      .img1 {
+        visibility: visible;
+        z-index: 1;
+      }
       .img2 {
-        display: none;
+        visibility: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
       }
 
-      &:hover .img1 {
-        display: none;
+      &:hover .img1{
+        visibility: hidden;
       }
-      &:hover .img2 {
-        display: block;
+
+      &:hover .img2{
+        visibility: visible;
+        z-index: 2;
       }
+
+    //   .img2 {
+    //     display: none;
+    //   }
+
+    //   &:hover .img1 {
+    //     display: none;
+    //   }
+    //   &:hover .img2 {
+    //     display: block;
+    //   }
+    
     }
+
+      
+    
     .prices{
         display: flex;
         gap: 10px;
