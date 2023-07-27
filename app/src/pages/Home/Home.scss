@@ -23,7 +23,9 @@
      }
     img{
         width: 100vw;
-        object-fit: contain;         
+        margin-top: -5%;
+        object-fit: contain;
+        overflow: hidden;         
     }
 
 

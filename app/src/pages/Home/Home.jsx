@@ -14,8 +14,10 @@ import "swiper/css/navigation";
 const Home = () => {
   const sliderData = [
     "https://images.pexels.com/photos/1549200/pexels-photo-1549200.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    "https://images.pexels.com/photos/949670/pexels-photo-949670.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    "https://images.pexels.com/photos/837140/pexels-photo-837140.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "https://images.pexels.com/photos/1036627/pexels-photo-1036627.jpeg",
+    "https://images.pexels.com/photos/1126993/pexels-photo-1126993.jpeg",
+    "https://images.pexels.com/photos/179909/pexels-photo-179909.jpeg",
+    "https://images.pexels.com/photos/1240892/pexels-photo-1240892.jpeg",
   ];
 
   return (
@@ -26,7 +28,7 @@ const Home = () => {
           spaceBetween={0}
           loop={true}
           autoplay={{
-            delay: 3000,
+            delay: 2500,
             disableOnInteraction: false,
           }}
           pagination={{
@@ -44,6 +46,12 @@ const Home = () => {
           </SwiperSlide>
           <SwiperSlide>
             <img src={sliderData[2]} alt="" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={sliderData[3]} alt="" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={sliderData[4]} alt="" />
           </SwiperSlide>
         </Swiper>
       </div>

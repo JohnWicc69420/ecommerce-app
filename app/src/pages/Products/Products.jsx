@@ -49,13 +49,13 @@ export const data = [
   },
   {
     id: "4",
-    img1: "https://img.freepik.com/free-photo/portrait-handsome-smiling-stylish-young-man-model-dressed-red-checkered-shirt-fashion-man-posing_158538-4914.jpg?w=740&t=st=1689515079~exp=1689515679~hmac=ef1fa5aeac0f255fd2114aa9bce9645c3ac3c762114ddccd9afec1b055ad73bf",
-    img2: "https://img.freepik.com/free-photo/portrait-handsome-smiling-stylish-young-man-model-dressed-red-checkered-shirt-fashion-man-posing_158538-4919.jpg?w=1060&t=st=1689515121~exp=1689515721~hmac=1e1e20b10ee0bd9fd1d530da1801b8a185ea2b990fcf2c31b1bd69a5a233753b",
+    img1: "https://images.pexels.com/photos/17570082/pexels-photo-17570082/free-photo-of-young-bearded-man-in-white-cap-and-t-shirt.jpeg",
+    img2: "https://images.pexels.com/photos/17570098/pexels-photo-17570098/free-photo-of-young-man-with-sunglasses-standing-on-stairs-and-looking-away.jpeg",
     oldPrice: 54.99,
     newPrice: 34.99,
-    name: "Men's Casual Shirt",
+    name: "Men's T-Shirt Yellow",
     desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit maiores repellendus consequuntur inventore",
-    type: "shirt",
+    type: "t-shirt",
     vendor: "Polo",
     tag: "Clothing, Fashion, Top",
     popularity: "trending",
@@ -94,8 +94,8 @@ export const data = [
     id: "7",
     img1: "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80",
     img2: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    oldPrice: 34.99,
-    newPrice: 24.99,
+    oldPrice: 44.99,
+    newPrice: 39.99,
     name: "Men's Footwear",
     desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit maiores repellendus consequuntur inventore",
     type: "shoes",
@@ -106,8 +106,8 @@ export const data = [
   },
   {
     id: "8",
-    img1: "https://img.freepik.com/free-photo/portrait-young-handsome-man-grey_144627-64073.jpg?w=1380&t=st=1689515432~exp=1689516032~hmac=b3f8836507db3dff78a12a22b575fafed9c9d4c654b81d21331f0d73afd06fa2",
-    img2: "https://img.freepik.com/free-photo/portrait-young-guy-grey_144627-64065.jpg?w=1380&t=st=1689515470~exp=1689516070~hmac=a1ab34577b8d43a69d2483c47cb182bcc3a00c2fdfec6fdb7a75fc18f04415cb",
+    img1: "https://images.pexels.com/photos/16131085/pexels-photo-16131085/free-photo-of-portrait-of-a-male-model-wearing-a-black-t-shirt.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    img2: "https://images.pexels.com/photos/16400892/pexels-photo-16400892/free-photo-of-man-posing-in-black-t-shirt.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     oldPrice: 39.99,
     newPrice: 29.99,
     name: "Men's T-Shirt",
@@ -190,13 +190,13 @@ export const data = [
   },
   {
     id: "14",
-    img1: "https://img.freepik.com/free-photo/portrait-goodlooking-attractive-stylish-bearded-man-brown_285396-4606.jpg?w=1380&t=st=1689514776~exp=1689515376~hmac=678340cbc26452df5b439c08f99bf92b62de5fc50a4f126548502951b99270bd",
-    img2: "https://img.freepik.com/free-photo/portrait-handsome-stylish-bearded-man-brown_285396-4583.jpg?w=1380&t=st=1689514833~exp=1689515433~hmac=bf7134464a73e52781216bf65eebf5be000faf32e17bd38230c587858506bd2a",
+    img1: "https://images.pexels.com/photos/11513333/pexels-photo-11513333.jpeg",
+    img2: "https://images.pexels.com/photos/11513332/pexels-photo-11513332.jpeg",
     oldPrice: 49.99,
     newPrice: 29.99,
-    name: "Men's Casual Shirt",
+    name: "Men's Sweatshirt",
     desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit maiores repellendus consequuntur inventore",
-    type: "shirt",
+    type: "sweatshirt",
     vendor: "Polo",
     tag: "Clothing, Fashion, Top",
     popularity: "trending",
@@ -220,8 +220,8 @@ export const data = [
     id: "16",
     img1: "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=715&q=80",
     img2: "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1131&q=80",
-    oldPrice: 44.99,
-    newPrice: 39.99,
+    oldPrice: 34.99,
+    newPrice: 29.99,
     name: "Men's Shoes",
     desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit maiores repellendus consequuntur inventore",
     type: "shoes",
@@ -297,27 +297,27 @@ const Products = () => {
     },
   ];
 
-  const [maxValue, setMaxValue] = useState(1000);
+  const [maxValue, setMaxValue] = useState(100);
   const [sortType, setSortType] = useState("");
   const [selectedCheckboxes, setSelectedCheckboxes] = useState({});
 
   const catData = catId === "sale" || catId === "new_arrivals" ?  data : data.filter((item) => item.cat === catId)//Category data
 
+  const priceFilteredData = catData.filter(
+    (item) => item.newPrice <= maxValue
+  ); 
+
   const sortData = () => {
     if (sortType === "asc") {
-      return catData.sort((a, b) => a.newPrice - b.newPrice);
+      return priceFilteredData.sort((a, b) => a.newPrice - b.newPrice);
     }
     if (sortType === "desc") {
-      return catData.sort((a, b) => b.newPrice - a.newPrice);
+      return priceFilteredData.sort((a, b) => b.newPrice - a.newPrice);
     }
-    return catData;
+    return priceFilteredData;
   };
 
   const sortedData = sortData();  // category sorted
-
-  const priceFilteredData = sortedData.filter(
-    (item) => item.newPrice <= maxValue
-  );                                 // data filtered with price
 
   const handleCheckboxChange = (event) => {
     const { id, checked } = event.target;
@@ -331,10 +331,10 @@ const Products = () => {
 
   const checkboxFilteredData =
   Object.values(selectedCheckboxes).some(Boolean) 
-  ? priceFilteredData.filter((item) => {
+  ? sortedData.filter((item) => {
     return selectedCheckboxes[item.type];
   })
-  : priceFilteredData;
+  : sortedData;
 
   return (
     <>
@@ -365,7 +365,7 @@ const Products = () => {
               <input
                 type="range"
                 min={0}
-                max={1000}
+                max={100}
                 step="1"
                 id="range"
                 onChange={(e) => setMaxValue(e.target.value)}
