@@ -289,16 +289,16 @@ const Products = () => {
 
   const catData = catId === "sale" || catId === "new_arrivals" ?  data : data.filter((item) => item.cat === catId)//Category data
 
-  const priceFilteredData = catData.filter(
+  const priceFilteredData = catData?.filter(
     (item) => item.newPrice <= maxValue
   ); 
 
   const sortData = () => {
     if (sortType === "asc") {
-      return priceFilteredData.sort((a, b) => a.newPrice - b.newPrice);
+      return priceFilteredData?.sort((a, b) => a.newPrice - b.newPrice);
     }
     if (sortType === "desc") {
-      return priceFilteredData.sort((a, b) => b.newPrice - a.newPrice);
+      return priceFilteredData?.sort((a, b) => b.newPrice - a.newPrice);
     }
     return priceFilteredData;
   };
@@ -317,7 +317,7 @@ const Products = () => {
 
   const checkboxFilteredData =
   Object.values(selectedCheckboxes).some(Boolean) 
-  ? sortedData.filter((item) => {
+  ? sortedData?.filter((item) => {
     return selectedCheckboxes[item.type];
   })
   : sortedData;

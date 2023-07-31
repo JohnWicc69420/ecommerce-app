@@ -33,28 +33,14 @@
         visibility: visible;
         z-index: 2;
       }
-
-    //   .img2 {
-    //     display: none;
-    //   }
-
-    //   &:hover .img1 {
-    //     display: none;
-    //   }
-    //   &:hover .img2 {
-    //     display: block;
-    //   }
-    
     }
 
-      
-    
     .prices{
         display: flex;
         gap: 10px;
         
         .oldPrice{
-            color: red;
+            color: rgba(195, 0, 0, 0.9);
             text-decoration: line-through;
         }
     }
