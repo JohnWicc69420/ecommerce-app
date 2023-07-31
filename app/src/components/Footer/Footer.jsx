@@ -60,6 +60,7 @@ const Footer = () => {
             culpa optio explicabo, labore ullam?
           </p>
         </div>
+        <div className="rights">© LAMASTORE. All rigths reserved</div>
       </div>
     </>
   );
