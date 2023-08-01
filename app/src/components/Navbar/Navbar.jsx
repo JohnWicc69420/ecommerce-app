@@ -48,12 +48,13 @@ const Navbar = ({ cartItems, removeItem }) => {
           </div>
 
           <div className="product">
-            <Link to="/products/shoes">Shoes</Link>
+            <Link to="/products/sale">Sale</Link>
           </div>
-
+          
           <div className="product">
             <Link to="/products/accessories">Accessories</Link>
           </div>
+
         </div>
 
         <div className="left-menu">
@@ -116,15 +117,15 @@ const Navbar = ({ cartItems, removeItem }) => {
           </div>
 
           <div>
-            <Link to="/about">About</Link>
+            <Link to="/">About</Link>
           </div>
 
           <div>
-            <Link to="/contact">Contact</Link>
+            <Link to="/">Contact</Link>
           </div>
 
           <div>
-            <Link to="/stores">Stores</Link>
+            <Link to="/">Stores</Link>
           </div>
           <SearchIcon className="icon" />
           <PersonOutlineOutlinedIcon className="icon" />
@@ -150,7 +151,7 @@ const Navbar = ({ cartItems, removeItem }) => {
             </Link>
           </div>
           <div>
-            <Link to="/stores">
+            <Link to="/">
               <StoreOutlinedIcon className="icon" />
             </Link>
           </div>

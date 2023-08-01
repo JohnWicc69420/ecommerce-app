@@ -16,8 +16,10 @@ export const data = [
     type: "shirt",
     vendor: "Polo",
     tag: "Clothing, Fashion, Top",
+    sale: true,
     popularity: "featured",
     cat: "men",
+    season: "New Season",
   },
   {
     id: "2",
@@ -30,8 +32,10 @@ export const data = [
     type: "coat",
     vendor: "Polo",
     tag: "Clothing, Fashion, Top",
+    sale: true,
     popularity: "trending",
     cat: "women",
+    season: "New Season",
   },
   {
     id: "3",
@@ -44,6 +48,7 @@ export const data = [
     type: "sweater",
     vendor: "Polo",
     tag: "Clothing, Fashion, Top",
+    sale: true,
     popularity: "trending",
     cat: "men",
   },
@@ -60,6 +65,7 @@ export const data = [
     tag: "Clothing, Fashion, Top",
     popularity: "trending",
     cat: "men",
+    season: "New Season",
   },
 
   {
@@ -73,8 +79,10 @@ export const data = [
     type: "coat",
     vendor: "Polo",
     tag: "Clothing, Fashion, Top",
+    sale: true,
     popularity: "featured",
     cat: "women",
+    season: "New Season",
   },
   {
     id: "6",
@@ -101,8 +109,10 @@ export const data = [
     type: "shoes",
     vendor: "Polo",
     tag: "Clothing, Fashion, Shoes",
+    sale: true,
     popularity: "trending",
     cat: "shoes",
+    season: "New Season",
   },
   {
     id: "8",
@@ -129,6 +139,7 @@ export const data = [
     type: "bag",
     vendor: "Polo",
     tag: "Clothing, Fashion, Shoes",
+    sale: true,
     popularity: "trending",
     cat: "accessories",
   },
@@ -157,8 +168,10 @@ export const data = [
     type: "watch",
     vendor: "Polo",
     tag: "Clothing, Fashion, Shoes",
+    sale: true,
     popularity: "featured",
     cat: "accessories",
+    season: "New Season",
   },
   {
     id: "12",
@@ -171,8 +184,10 @@ export const data = [
     type: "shoes",
     vendor: "Polo",
     tag: "Clothing, Fashion, Shoes",
+    sale: true,
     popularity: "trending",
     cat: "shoes",
+    season: "New Season",
   },
   {
     id: "13",
@@ -185,6 +200,7 @@ export const data = [
     type: "shoes",
     vendor: "Polo",
     tag: "Clothing, Fashion, Shoes",
+    sale: true,
     popularity: "trending",
     cat: "shoes",
   },
@@ -199,8 +215,10 @@ export const data = [
     type: "jacket",
     vendor: "Polo",
     tag: "Clothing, Fashion, Top",
+    sale: true,
     popularity: "trending",
     cat: "men",
+    season: "New Season",
   },
   {
     id: "15",
@@ -227,6 +245,7 @@ export const data = [
     type: "shoes",
     vendor: "Polo",
     tag: "Clothing, Fashion, Shoes",
+    sale: true,
     popularity: "featured",
     cat: "shoes",
   },
@@ -240,7 +259,7 @@ export const data = [
     desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit maiores repellendus consequuntur inventore",
     type: "shirt",
     vendor: "Polo",
-    tag: "Clothing, Fashion, Shoes",
+    tag: "Clothing, Fashion",
     popularity: "featured",
     cat: "women",
   },
@@ -254,9 +273,11 @@ export const data = [
     desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit maiores repellendus consequuntur inventore",
     type: "bag",
     vendor: "Polo",
-    tag: "Clothing, Fashion, Shoes",
+    tag: "Clothing, Fashion, Bag",
+    sale: true,
     popularity: "trending",
     cat: "accessories",
+    season: "New Season",
   },
   {
     id: "19",
@@ -271,6 +292,7 @@ export const data = [
     tag: "Clothing, Fashion, Top",
     popularity: "featured",
     cat: "men",
+    season: "New Season",
   },
 ];
 
@@ -287,7 +309,17 @@ const Products = () => {
   const [sortType, setSortType] = useState("");
   const [selectedCheckboxes, setSelectedCheckboxes] = useState({});
 
-  const catData = catId === "sale" || catId === "new_arrivals" ?  data : data.filter((item) => item.cat === catId)//Category data
+  let catData;
+
+  if (catId === "sale") 
+  {catData = data.filter((item) => item.sale === true)}
+
+  else if (catId === "new_arrivals"){
+  catData = data.filter((item) => item.season === "New Season")
+  } 
+  else {
+    catData = data.filter((item) => item.cat === catId);
+  }
 
   const priceFilteredData = catData?.filter(
     (item) => item.newPrice <= maxValue

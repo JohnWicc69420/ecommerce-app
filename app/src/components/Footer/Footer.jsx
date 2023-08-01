@@ -27,19 +27,19 @@ const Footer = () => {
         <div className="links">
           <h1>Links</h1>
           <p>
-            <Link to="/products">FAQ</Link>
+            <Link to="/">FAQ</Link>
           </p>
           <p>
-            <Link to="/products">Pages</Link>
+            <Link to="/">Pages</Link>
           </p>
           <p>
-            <Link to="/products">Stores</Link>
+            <Link to="/">Stores</Link>
           </p>
           <p>
-            <Link to="/products">Compare</Link>
+            <Link to="/">Compare</Link>
           </p>
           <p>
-            <Link to="/products">Cookies</Link>
+            <Link to="/">Cookies</Link>
           </p>
         </div>
         <div className="about">
