@@ -8,8 +8,8 @@ const Card = ({ item }) => {
       <Link to={`/product/${item.id}`} className="link">
         <div className="cardContainer">
           <div className="images">
-            <img className="img1" src={item.img1} alt="" />
-            <img className="img2" src={item.img2} alt="" />
+            <img className="img1" src={item.img1} alt="" loading="lazy"/>
+            <img className="img2" src={item.img2} alt="" loading="lazy"/>
             {item.season ? <h1>{item.season}</h1> : null}
           </div>
             <h1>{item.name}</h1>

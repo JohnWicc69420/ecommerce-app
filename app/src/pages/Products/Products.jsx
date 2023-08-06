@@ -415,7 +415,7 @@ const Products = () => {
         </div>
         <div className="right right-icons">
           <div className="catImg">
-            <img src={ban[0].banImg} alt="" />
+            <img src={ban[0].banImg} alt="" loading="lazy"/>
           </div>
           <div className="cards">
             {checkboxFilteredData?.map((item) => (

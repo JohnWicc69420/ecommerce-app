@@ -39,19 +39,19 @@ const Home = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <img src={sliderData[0]} alt="" />
+            <img src={sliderData[0]} alt="" loading="lazy"/>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={sliderData[1]} alt="" />
+            <img src={sliderData[1]} alt="" loading="lazy"/>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={sliderData[2]} alt="" />
+            <img src={sliderData[2]} alt="" loading="lazy"/>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={sliderData[3]} alt="" />
+            <img src={sliderData[3]} alt="" loading="lazy"/>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={sliderData[4]} alt="" />
+            <img src={sliderData[4]} alt="" loading="lazy"/>
           </SwiperSlide>
         </Swiper>
       </div>

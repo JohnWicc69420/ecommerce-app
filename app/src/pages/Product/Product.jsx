@@ -66,11 +66,11 @@ const Product = ({ addItem }) => {
       <div className="productContainer">
         <div className="left">
           <div className="images">
-            <img onClick={handleImageClick} src={item.img1} alt="" />
-            <img onClick={handleImageClick} src={item.img2} alt="" />
+            <img onClick={handleImageClick} src={item.img1} alt="" loading="lazy"/>
+            <img onClick={handleImageClick} src={item.img2} alt="" loading="lazy"/>
           </div>
           <div className="mainImage">
-            <img src={mainImage} alt="" />
+            <img src={mainImage} alt="" loading="lazy"/>
           </div>
         </div>
         <div className="right">
