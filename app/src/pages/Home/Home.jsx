@@ -26,6 +26,7 @@ const Home = () => {
         <Swiper
           slidesPerView={1}
           spaceBetween={0}
+          lazy={true}
           loop={true}
           autoplay={{
             delay: 2500,
@@ -39,19 +40,19 @@ const Home = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <img src={sliderData[0]} alt="" loading="lazy"/>
+            <img src={sliderData[0]} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={sliderData[1]} alt="" loading="lazy"/>
+            <img src={sliderData[1]} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={sliderData[2]} alt="" loading="lazy"/>
+            <img src={sliderData[2]} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={sliderData[3]} alt="" loading="lazy"/>
+            <img src={sliderData[3]} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={sliderData[4]} alt="" loading="lazy"/>
+            <img src={sliderData[4]} alt="" />
           </SwiperSlide>
         </Swiper>
       </div>
