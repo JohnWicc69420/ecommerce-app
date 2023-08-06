@@ -26,7 +26,6 @@ const Home = () => {
         <Swiper
           slidesPerView={1}
           spaceBetween={0}
-          lazy={true}
           loop={true}
           autoplay={{
             delay: 2500,
