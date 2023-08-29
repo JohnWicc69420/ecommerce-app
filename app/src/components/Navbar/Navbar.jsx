@@ -50,11 +50,10 @@ const Navbar = ({ cartItems, removeItem }) => {
           <div className="product">
             <Link to="/products/sale">Sale</Link>
           </div>
-          
+
           <div className="product">
             <Link to="/products/accessories">Accessories</Link>
           </div>
-
         </div>
 
         <div className="left-menu">
@@ -94,8 +93,8 @@ const Navbar = ({ cartItems, removeItem }) => {
             </div>
 
             <div className="product">
-              <Link to="/products/children" onClick={handleMenu}>
-                Children
+              <Link to="/products/sale" onClick={handleMenu}>
+                Sale
               </Link>
             </div>
 
