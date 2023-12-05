@@ -13,9 +13,9 @@ import "swiper/css/navigation";
 
 const Home = () => {
   const sliderData = [
-    "https://images.pexels.com/photos/1549200/pexels-photo-1549200.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    "https://images.pexels.com/photos/1126993/pexels-photo-1126993.jpeg",
-    "https://images.pexels.com/photos/179909/pexels-photo-179909.jpeg",
+    "/homeImages/img1.jpeg",
+    "/homeImages/img2.jpg",
+    "/homeImages/img3.jpeg",
   ];
 
   return (

@@ -6,24 +6,16 @@ const Categories = () => {
   return (
     <div className="categories">
       <div className="col">
-        <div className="row">
-        <img
-            src="https://images.pexels.com/photos/7679682/pexels-photo-7679682.jpeg"
-            alt=""
-            loading="lazy"
-          />
+        <div className="row item">
+          <img src="/catImages/sale.jpg" loading="lazy" alt="" />
           <button>
             <Link className="link" to="/products/sale">
               Sale
             </Link>
           </button>
         </div>
-        <div className="row">
-        <img
-            src="https://images.pexels.com/photos/2308883/pexels-photo-2308883.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            alt=""
-            loading="lazy"
-          />
+        <div className="row item">
+          <img src="/catImages/women.jpeg" alt="" loading="lazy" />
           <button>
             <Link to="/products/women" className="link">
               Women
@@ -32,13 +24,9 @@ const Categories = () => {
         </div>
       </div>
       <div className="col">
-        <div className="row">
+        <div className="row item">
           {" "}
-          <img
-            src="https://images.pexels.com/photos/8400603/pexels-photo-8400603.jpeg"
-            alt=""
-            loading="lazy"
-          />
+          <img src="/catImages/newSeason.jpg" alt="" loading="lazy" />
           <button>
             <Link to="/products/new_arrivals" className="link">
               New Season
@@ -49,12 +37,8 @@ const Categories = () => {
       <div className="col col-l">
         <div className="row">
           <div className="col">
-            <div className="row">
-            <img
-                src="https://images.pexels.com/photos/1306248/pexels-photo-1306248.jpeg"
-                alt=""
-                loading="lazy"
-              />
+            <div className="row item">
+              <img src="/catImages/men.jpg" alt="" loading="lazy" />
               <button>
                 <Link to="/products/men" className="link">
                   Men
@@ -63,13 +47,9 @@ const Categories = () => {
             </div>
           </div>
           <div className="col">
-            <div className="row">
+            <div className="row item">
               {" "}
-              <img
-                src="https://images.pexels.com/photos/1476055/pexels-photo-1476055.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                alt=""
-                loading="lazy"
-              />
+              <img src="/catImages/accessories.jpeg" alt="" loading="lazy" />
               <button>
                 <Link to="/products/accessories" className="link">
                   Accessories
@@ -78,12 +58,8 @@ const Categories = () => {
             </div>
           </div>
         </div>
-        <div className="row">
-        <img
-            src="https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            alt=""
-            loading="lazy"
-          />
+        <div className="row item">
+          <img src="/catImages/shoes.jpeg" alt="" loading="lazy" />
           <button>
             <Link to="/products/shoes" className="link">
               Shoes
