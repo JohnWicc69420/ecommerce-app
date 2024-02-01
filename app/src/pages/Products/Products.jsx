@@ -161,7 +161,7 @@ export const data = [
     img1: "/productImages/1id11.avif",
     img2: "/productImages/2id11.avif",
     oldPrice: 39.99,
-    newPrice: 34.992,
+    newPrice: 34.99,
     name: "Men's Shoes",
     desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit maiores repellendus consequuntur inventore",
     type: "shoes",

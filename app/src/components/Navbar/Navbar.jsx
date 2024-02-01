@@ -1,14 +1,10 @@
 import React, { useState } from "react";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import KeyboardArrowUpOutlinedIcon from "@mui/icons-material/KeyboardArrowUpOutlined";
-import SearchIcon from "@mui/icons-material/Search";
-import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
-import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import "./Navbar.scss";
 import { Link } from "react-router-dom";
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
-import StoreOutlinedIcon from "@mui/icons-material/StoreOutlined";
 import Cart from "../Cart/Cart";
 
 const Navbar = ({ cartItems, removeItem }) => {
@@ -26,19 +22,6 @@ const Navbar = ({ cartItems, removeItem }) => {
     <>
       <div className="navContainer">
         <div className="left">
-          <div className="img">
-            <img
-              src="https://www.pngmart.com/files/13/American-Flag-Logo-PNG-Picture.png"
-              alt=""
-            />
-            <KeyboardArrowDownIcon />
-          </div>
-
-          <div className="img">
-            <span>USD</span>
-            <KeyboardArrowDownIcon />
-          </div>
-
           <div className="product">
             <Link to="/products/men">Men</Link>
           </div>
@@ -65,23 +48,6 @@ const Navbar = ({ cartItems, removeItem }) => {
             )}
           </div>
           <div className={`${openMenu ? "open" : "closed"}`}>
-            <div className="img" onClick={handleMenu}>
-              <Link>
-                <img
-                  src="https://www.pngmart.com/files/13/American-Flag-Logo-PNG-Picture.png"
-                  alt=""
-                />
-              </Link>
-              <KeyboardArrowDownIcon />
-            </div>
-
-            <div className="img" onClick={handleMenu}>
-              <Link>
-                <span>USD</span>
-              </Link>
-              <KeyboardArrowDownIcon />
-            </div>
-
             <div className="product" onClick={handleMenu}>
               <Link to="/products/men">Men</Link>
             </div>
@@ -126,9 +92,6 @@ const Navbar = ({ cartItems, removeItem }) => {
           <div>
             <Link to="/">Stores</Link>
           </div>
-          <SearchIcon className="icon" />
-          <PersonOutlineOutlinedIcon className="icon" />
-          <FavoriteBorderOutlinedIcon className="icon" />
           <div className="cartButton">
             <ShoppingCartOutlinedIcon
               onClick={handleOpenCart}
@@ -149,14 +112,6 @@ const Navbar = ({ cartItems, removeItem }) => {
               <HomeOutlinedIcon className="icon" />
             </Link>
           </div>
-          <div>
-            <Link to="/">
-              <StoreOutlinedIcon className="icon" />
-            </Link>
-          </div>
-          <SearchIcon className="icon" />
-          <PersonOutlineOutlinedIcon className="icon" />
-          <FavoriteBorderOutlinedIcon className="icon" />
           <div className="cartButton">
             <ShoppingCartOutlinedIcon
               onClick={handleOpenCart}
